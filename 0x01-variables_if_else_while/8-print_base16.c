@@ -12,12 +12,10 @@ int main(void)
 	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
-		n++;
 	}
 	for (i = 97; i <= 102; i++)
 	{
 		putchar(i);
-		i++;
 	}
 	putchar('\n');
 	return (0);
