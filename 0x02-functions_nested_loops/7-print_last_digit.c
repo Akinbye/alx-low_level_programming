@@ -2,7 +2,6 @@
 /**
  *print_last_digit - A function that prints the last digit of a number
  *@n: an integer
- *@l: remainder value
  *Return: 0
  */
 int print_last_digit(int n)
