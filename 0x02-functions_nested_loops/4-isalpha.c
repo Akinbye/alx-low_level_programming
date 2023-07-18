@@ -4,7 +4,7 @@
  *
  *@c: The character in ASCII code
  *
- *return: 0
+ *Return: 1 when alphabet is printed and 0 when its not an alphabet
  */
 int _isalpha(int c)
 {
