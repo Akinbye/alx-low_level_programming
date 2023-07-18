@@ -6,11 +6,7 @@
  */
 void times_table(void)
 {
-	int a;
-	int b;
-	int c;
-	int m;
-	int n;
+	int a, b, c, m, n;
 
 	for (a = 0; a <= 9; a++)
 	{
@@ -29,7 +25,7 @@ void times_table(void)
 			else if (b != 0)
 			{
 				_putchar(44);
-				_putchar(32);
+				_putchar(44);
 				_putchar(32);
 			}
 			else
