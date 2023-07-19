@@ -1,5 +1,6 @@
 #ifndef main_h
 #define main_h
+void print_times_table(int n);
 void times_table(void);
 void jack_bauer(void);
 int _putchar(char c);
