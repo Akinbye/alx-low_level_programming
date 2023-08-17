@@ -4,7 +4,6 @@
 /**
  *print_all - function that prints anything
  *@format: types of arguments
- *Return: 0
  */
 void print_all(const char * const format, ...)
 {
@@ -23,10 +22,13 @@ void print_all(const char * const format, ...)
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(all, int));
+					break;
 				case 'i':
 					printf("%s%d", sep, va_arg(all, int));
+					break;
 				case 'f':
 					printf("%s%f", sep, va_arg(all, double));
+					break;
 				case 's':
 					str = va_arg(all, char *);
 					if (!str)
