@@ -48,7 +48,9 @@ int main(int argc, char *argv[])
 
 		if (n == -1)
 			error(-1, 0, argv);
-		r = write(file_to, buff, 1024);
+		r = write(file_to, buff, n);
+
+		if (r == -1)
 			error(0, -1, argv);
 	}
 	err = close(file_from);
